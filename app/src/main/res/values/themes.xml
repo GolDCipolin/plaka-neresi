@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Platform theme rather than an AppCompat one: the whole UI is Compose, so pulling in
+      AppCompat would add a dependency nothing uses.
+    -->
+    <style name="Theme.PlakaNeresi" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+</resources>

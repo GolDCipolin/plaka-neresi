@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A plate, drawn to fit inside the 66dp safe circle of the 108dp adaptive-icon canvas
+  so nothing important is clipped by round or squircle launcher masks.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- White plate body -->
+    <path
+        android:fillColor="#FCFCFC"
+        android:pathData="M30,41 H78 A5,5 0 0 1 83,46 V62 A5,5 0 0 1 78,67 H30 A5,5 0 0 1 25,62 V46 A5,5 0 0 1 30,41 Z" />
+
+    <!-- Blue TR strip -->
+    <path
+        android:fillColor="#003399"
+        android:pathData="M38,41 H30 A5,5 0 0 0 25,46 V62 A5,5 0 0 0 30,67 H38 Z" />
+
+    <!-- The code, abstracted to three blocks so the icon reads at 48dp -->
+    <path android:fillColor="#1F1F1F" android:pathData="M44,49 H51 V59 H44 Z" />
+    <path android:fillColor="#1F1F1F" android:pathData="M55,49 H62 V59 H55 Z" />
+    <path android:fillColor="#1F1F1F" android:pathData="M66,49 H73 V59 H66 Z" />
+
+    <!-- Outline drawn last so it sits on top of the strip -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1F1F1F"
+        android:strokeWidth="2"
+        android:pathData="M30,41 H78 A5,5 0 0 1 83,46 V62 A5,5 0 0 1 78,67 H30 A5,5 0 0 1 25,62 V46 A5,5 0 0 1 30,41 Z" />
+</vector>

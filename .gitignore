@@ -1,0 +1,17 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Signing material. Committing any of this hands over the ability to publish as you.
+keystore.properties
+*.keystore
+*.jks
+!debug.keystore

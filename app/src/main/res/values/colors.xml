@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches the Compose light background, so there is no flash before Compose draws. -->
+    <color name="window_background">#FFF6F7FB</color>
+    <color name="ic_launcher_background">#FFDCE5FA</color>
+</resources>

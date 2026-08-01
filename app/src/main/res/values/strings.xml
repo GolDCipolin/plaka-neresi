@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plaka Neresi</string>
+
+    <string name="search_hint">48 ya da Muğla</string>
+    <string name="clear">Temizle</string>
+
+    <string name="browse_title">Tüm iller</string>
+    <string name="sort_by_code">Plaka koduna göre</string>
+    <string name="sort_by_name">A\'dan Z\'ye</string>
+
+    <string name="other_matches">Diğer eşleşmeler</string>
+    <string name="region_format">%1$s Bölgesi</string>
+
+    <string name="no_results">Sonuç yok</string>
+    <string name="no_results_hint">01–81 arasında bir plaka kodu ya da il adı yaz.</string>
+
+    <string name="details">Detaylar</string>
+    <string name="details_version">Sürüm %1$s (%2$d)</string>
+
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+
+    <string name="details_provinces">İl sayısı</string>
+    <string name="details_code_range">Plaka kodları</string>
+    <string name="details_offline">İl sorgulama tamamen çevrimdışı çalışır; veriler uygulamanın içine gömülüdür. İnternet yalnızca reklam için kullanılır.</string>
+</resources>

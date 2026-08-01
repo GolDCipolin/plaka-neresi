@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  These are Google's OFFICIAL TEST ids. They serve real-looking placeholder ads and are
+  safe to click during development.
+
+  Swap both for your own AdMob ids before publishing — and only then. Loading your real
+  ad units on your own device counts as invalid traffic and can get an AdMob account
+  suspended, which is not reversible in practice.
+
+  https://developers.google.com/admob/android/test-ads
+-->
+<resources>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
